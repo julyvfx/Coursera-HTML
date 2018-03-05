@@ -1,3 +1,90 @@
 body {
-    background-color: powderblue;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+  	color: #fff;
+  	background-color: #ffffcc;
+}
+#header-nav {
+	background-color: #ff5050;
+	border-radius: 0;
+	border: 2px solid black;
+}
+.navbar-brand h1 {
+	color: #000000;
+ 	font-size: 1.5em; /* WHAT THIS MAKES? */
+ 	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ff5050;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.row {
+	width: 100%;
+	position: relative;
+}
+.category-explanation {
+	border: 0px;
+	background-color: #ffff66;
+	color: black;
+	margin-left: 10px; 
+	margin-top: 10px;
+}
+.div_title {
+	border: 0px;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+	font-size: 18px;
+}
+#menu-title {
+	text-align: center;
+	color: #000;
+}
+.paragraph {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
 }
