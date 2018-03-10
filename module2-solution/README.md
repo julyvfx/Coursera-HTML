@@ -1,1 +1,1 @@
-Coding Assignment for Coursera's course "HTML, CSS, and Javascript for Web Developers" - Week 3.
+Coding Assignment for Coursera's course "HTML, CSS, and Javascript for Web Developers" - Week 2.
